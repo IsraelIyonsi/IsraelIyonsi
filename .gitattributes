@@ -1,0 +1,3 @@
+# Ensure GitHub detects this as a Markdown repo
+assets/* linguist-vendored
+*.html linguist-vendored
