@@ -101,3 +101,4 @@ I'm looking for **Senior/Staff Backend Engineer** roles — remote or UK-based. 
 ---
 
 <sub>I once debugged a distributed transaction bug at 3 AM across three time zones. The fix was two lines. The investigation was 200. That's the job, and I love it.</sub>
+
