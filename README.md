@@ -1,4 +1,4 @@
-# $30.6B+ in fintech transactions. 28-country AML compliance. 20+ partner integrations.
+# $30.6M+ in fintech transactions. 28-country AML compliance. 20+ partner integrations.
 
 **That's what I've shipped.** I'm Israel Iyonsi — a Senior Software Engineer who builds backend systems at the intersection of finance, compliance, and scale.
 
