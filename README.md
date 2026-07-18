@@ -10,7 +10,7 @@
 
 ```
 8+ years        building production systems in fintech, banking, insurance & enterprise SaaS
-$30.6B+         transaction volume on platform I architected (Hydrogen)
+$30.6M+         transaction volume on platform I architected (Hydrogen)
 28 countries    AML compliance coverage shipped (Heirs Technologies)
 20+ partners    integrated into a single network (Kindred)
 PAPSS           Pan-African Payment Settlement System — Union Bank
