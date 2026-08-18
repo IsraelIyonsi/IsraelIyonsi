@@ -1,53 +1,52 @@
-# $30.6M+ in fintech transactions. 28-country AML compliance. 20+ partner integrations.
+# I build the infrastructure on the receiving end of Africa's payments, and open source so you do not have to rebuild it.
 
-**That's what I've shipped.** I'm Israel Iyonsi — a Senior Software Engineer who builds backend systems at the intersection of finance, compliance, and scale.
+I am Israel Iyonsi, a senior software engineer working in payments and financial infrastructure. I build settlement, screening and reconciliation systems for real money movement, and I publish the small, correct primitives that job needs as zero-dependency open-source .NET libraries.
 
-![Profile Views](https://komarev.com/ghpvc/?username=IsraelIyonsi&style=flat-square&color=6366F1)
+![Profile Views](https://komarev.com/ghpvc/?username=IsraelIyonsi&style=flat-square&color=4DD6A8)
 
 ---
 
-### The Numbers
+### The numbers
 
 ```
-8+ years        building production systems in fintech, banking, insurance & enterprise SaaS
-$30.6M+         transaction volume on platform I architected (Hydrogen)
-28 countries    AML compliance coverage shipped (Heirs Technologies)
-20+ partners    integrated into a single network (Kindred)
-PAPSS           Pan-African Payment Settlement System — Union Bank
+8+ years         building production systems in fintech, banking and enterprise SaaS
+₦41.1 trillion   settled through a CBN-licensed payment switch I helped build (Hydrogen, 2024)
+20+ countries    AML and sanctions screening shipped across a pan-African bank (UBA)
+PAPSS            Pan-African Payment and Settlement System integration (Union Bank of Nigeria)
+35 packages      zero-dependency open-source .NET libraries, published on NuGet
 ```
 
 **Tech Innovator of the Year** — CREST Awards 2024
 
 ---
 
-### What I'm Building Now
+### Open source: 35 zero-dependency .NET libraries
 
-<table>
-  <tr>
-    <td width="400">
-      <h4><a href="https://github.com/IsraelIyonsi/claude-control-center">Claude Control Center</a></h4>
-      <p>A Next.js dashboard for managing Claude Code — skills, agents, memory, and tasks with real-time CLI execution. Built because AI tooling should have a proper interface, not just a terminal.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Claude_API-6366F1?style=flat-square&logo=anthropic&logoColor=white" />
-      </p>
-    </td>
-    <td width="400">
-      <h4>MSc Computer Science</h4>
-      <p>University of East London (2024–2026). Deepening the foundations while continuing to ship production code. Because theory and practice aren't mutually exclusive.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Research-Machine_Learning-FF6F00?style=flat-square" />
-        <img src="https://img.shields.io/badge/Status-In_Progress-green?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-</table>
+A portfolio of small, correct, MIT-licensed .NET packages, each replacing a dead or missing incumbent. No runtime dependencies, AOT-friendly, and shipped with adversarial test suites so the claim in the README is one you can verify yourself. All live on NuGet: **[nuget.org/profiles/iiyonsi](https://www.nuget.org/profiles/iiyonsi)**
+
+**Fintech and payments**
+[Sanctions.NET](https://github.com/IsraelIyonsi/Sanctions.NET) · offline OFAC/UN/EU name screening &nbsp;|&nbsp; [Reconcile.NET](https://github.com/IsraelIyonsi/Reconcile.NET) · rule-based reconciliation &nbsp;|&nbsp; [Mt940.NET](https://github.com/IsraelIyonsi/Mt940.NET) · SWIFT MT940/942 parser &nbsp;|&nbsp; PaymentWebhooks.Net · verify 5 provider signature schemes &nbsp;|&nbsp; PaymentCards.Net · card + Verve validation &nbsp;|&nbsp; Nuban.Net · Nigerian NUBAN check digit &nbsp;|&nbsp; Bic.Net · SWIFT BIC (ISO 9362) &nbsp;|&nbsp; SecurityIds.Net · ISIN/CUSIP/SEDOL/FIGI &nbsp;|&nbsp; Vat.Net · offline EU/UK VAT &nbsp;|&nbsp; BusinessCalendar.Net · T+n settlement &nbsp;|&nbsp; FinancialFunctions.Net · NPV/IRR/XIRR &nbsp;|&nbsp; NumberToWords.Net · amounts in words (Naira/kobo)
+
+**Compliance, security and identity**
+[Jcs.NET](https://github.com/IsraelIyonsi/Jcs.NET) · RFC 8785 JSON canonicalization &nbsp;|&nbsp; [Pii.NET](https://github.com/IsraelIyonsi/Pii.NET) · PII detection and redaction (incl. NIN/BVN) &nbsp;|&nbsp; AuditChain.Net · tamper-evident hash-chained log &nbsp;|&nbsp; Mrz.Net · ICAO 9303 passport MRZ &nbsp;|&nbsp; [Zxcvbn.NET](https://github.com/IsraelIyonsi/Zxcvbn.NET) · password strength &nbsp;|&nbsp; [SafeName.NET](https://github.com/IsraelIyonsi/SafeName.NET) · path/filename sanitization
+
+**Data, text and matching plumbing**
+[FixedWidth.NET](https://github.com/IsraelIyonsi/FixedWidth.NET) · flat-file parser &nbsp;|&nbsp; [Mojibake.NET](https://github.com/IsraelIyonsi/Mojibake.NET) · repair garbled encoding &nbsp;|&nbsp; [FuzzMatch.NET](https://github.com/IsraelIyonsi/FuzzMatch.NET) · fuzzy matching &nbsp;|&nbsp; [Phonetics.NET](https://github.com/IsraelIyonsi/Phonetics.NET) · sound-alike name matching &nbsp;|&nbsp; [HumanTime.NET](https://github.com/IsraelIyonsi/HumanTime.NET) · duration parsing &nbsp;|&nbsp; [LlmJson.NET](https://github.com/IsraelIyonsi/LlmJson.NET) · streaming LLM JSON repair &nbsp;|&nbsp; Json5.Net · JSON5 reader &nbsp;|&nbsp; EmojiText.Net · emoji detect/strip &nbsp;|&nbsp; Autolink.Net · URL/mention linkify &nbsp;|&nbsp; NormalizeUrl.Net · URL canonicalization
+
+**Developer productivity**
+[TaskGroup.NET](https://github.com/IsraelIyonsi/TaskGroup.NET) · structured concurrency &nbsp;|&nbsp; [MeterBoard.NET](https://github.com/IsraelIyonsi/MeterBoard.NET) · dashboards as code &nbsp;|&nbsp; DecimalMath.Net · decimal math + penny-exact allocation &nbsp;|&nbsp; DagAlgorithms.Net · topo sort/cycle/scheduler &nbsp;|&nbsp; ObjectDiff.Net · structural diffing &nbsp;|&nbsp; PollAssert.Net · Awaitility for .NET &nbsp;|&nbsp; BarcodeSvg.Net · Code128/EAN-13 SVG
 
 ---
 
-### Tech Stack
+### Currently
+
+- Building and maintaining the open-source portfolio above, one small correct package at a time.
+- **MSc Computer Science**, University of East London (2024 to 2026).
+- Speaking on payments engineering and building production software with AI agents (Tech Unite Africa, TalkComms Summit; more on the way).
+
+---
+
+### Tech stack
 
 **Core**&nbsp;&nbsp;
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
@@ -56,7 +55,7 @@ PAPSS           Pan-African Payment Settlement System — Union Bank
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 
-**Cloud & Infra**&nbsp;&nbsp;
+**Cloud and infra**&nbsp;&nbsp;
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
@@ -70,16 +69,14 @@ PAPSS           Pan-African Payment Settlement System — Union Bank
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
 
-**Frontend & AI**&nbsp;&nbsp;
+**Frontend and AI**&nbsp;&nbsp;
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude_Code-6366F1?style=flat-square&logo=anthropic&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 
 ---
 
-### GitHub Stats
+### GitHub stats
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=IsraelIyonsi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
@@ -88,17 +85,13 @@ PAPSS           Pan-African Payment Settlement System — Union Bank
 
 ---
 
-### Open To
-
-I'm looking for **Senior/Staff Backend Engineer** roles — remote or UK-based. If you're building something where reliability at scale actually matters, let's talk.
+### Connect
 
 <p>
-  <a href="mailto:iyonsiisrael@gmail.com"><img src="https://img.shields.io/badge/Email-iyonsiisrael@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/iyonsiisrael-123b72b0"><img src="https://img.shields.io/badge/LinkedIn-Israel_Iyonsi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.nuget.org/profiles/iiyonsi"><img src="https://img.shields.io/badge/NuGet-iiyonsi-004880?style=for-the-badge&logo=nuget&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/israel-iyonsi"><img src="https://img.shields.io/badge/LinkedIn-Israel_Iyonsi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://israeliyonsi.com"><img src="https://img.shields.io/badge/Website-israeliyonsi.com-000000?style=for-the-badge&logo=safari&logoColor=white" /></a>
+  <a href="mailto:iyonsiisrael@gmail.com"><img src="https://img.shields.io/badge/Email-iyonsiisrael@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
----
-
-<sub>I once debugged a distributed transaction bug at 3 AM across three time zones. The fix was two lines. The investigation was 200. That's the job, and I love it.</sub>
-
+<sub>Every package here exists because I went looking for it, it was missing or abandoned, and the job still needed doing. That is most of engineering: the small correct thing, made to exist.</sub>
